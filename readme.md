@@ -53,7 +53,7 @@ most common letters are for *each* of the five places.  To do that,
 you will procude a report of the *counts* of each letter: the number
 of times each letter appears *in that place* for all 5 letter words.
 
-Your output should looks like the report below.  For example, `a`
+Your output should look like the report below.  For example, `a`
 appears as the first letter 838 times, as the second letter 2187
 times, etc.  `b` appears as the first letter 822 times, the second
 letter only 94 times etc.  Note that you should *store* these
@@ -67,7 +67,7 @@ For example:
 
 ```c
 char foo = 'a';
-count[0][foo-97] = 0;
+count[0][foo-97] = {0};
 ```
 
 Your output should look something like the following.
