@@ -66,8 +66,12 @@ ASCII values of a character as an index, subtracting 97 (lowercase `a`).
 For example:
 
 ```c
+//declare the array and fill it with zeros using:
+int count[5][26] = {0};
+
+//later use like:
 char foo = 'a';
-count[0][foo-97] = {0};
+count[0][foo-97] = 0;
 ```
 
 Your output should look something like the following.
